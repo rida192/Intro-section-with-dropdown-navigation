@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@100;200;300;400;500;600;700;900&display=swap');
+
+/* .sidebar{
+  @apply 
+}
+.sidebar.show{
+  @apply left-1/2
+} */
+
+
+
+.submenu{
+  height: 0;
+}
+.li.active .submenu{
+  height: 172px;
+  
+}
+.li.active div:first-child img{
+  transform: rotate(180deg);
+}
+
+
+
+.desktop-li.show span img{
+  transform: rotate(180deg);
+  
+}
+
+.desktop-li.show .desktop-submenu{
+  display: block;
+}
+.desktop-li .desktop-submenu{
+  display: none;
+}
